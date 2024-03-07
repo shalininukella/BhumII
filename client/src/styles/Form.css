@@ -1,0 +1,92 @@
+.volunteer-form-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.volunteer-form-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.volunteer-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  width: 30%;
+  padding: 3rem;
+  font-family: 'Poppins';
+  border-radius: 5rem;
+  
+}
+.volunteer-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 5px;
+}
+.volunteer-input input{
+  padding: 10px;
+  border-radius: 12px;
+}
+.form-head {
+  background-image: url("../images/team1.jpg");
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  gap: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form-card-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.form-sub{
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  gap: 3rem;
+  align-items: center;
+}
+.form-sub-text{
+  width: 50%;
+  font-family: 'Poppins';
+}
+.form-sub-text h1{
+  font-size: 4rem;
+}
+.form-sub-text , .form-sub-text2 p{
+  font-size: 20px;
+}
+.form-sub-img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.form-sub-text2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+.form-sub-text2 h1{
+  font-size: 4rem;
+}
+
+.volunteer-form-submit{
+  padding:10px 20px;
+  border-radius: 2rem;
+  border: 1px;
+}
+.earthcanvas{
+  width: 40%;
+  height: 400px;
+}

@@ -1,0 +1,132 @@
+.schemes-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row .column {
+  width: 40%;
+}
+
+.column .tabs {
+  display: flex;
+}
+.single-tab {
+  background-color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.single-tab h2 {
+  display: block;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 600;
+}
+.about-img {
+  position: relative;
+  background-image: url(../images/v2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 10px solid white;
+  height: 600px;
+  width: 100%;
+  border-radius: 5px;
+}
+.volunteer-img {
+  position: relative;
+  background-image: url(../images/v1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 10px solid white;
+  height: 600px;
+  width: 100%;
+  border-radius: 5px;
+}
+.other-img {
+  position: relative;
+  background-image: url(../images/v2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 10px solid white;
+  height: 600px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.content {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+.content p {
+  padding-bottom: 1rem;
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 12rem;
+}
+
+.card {
+  perspective: 200px;
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+  /* flex-direction:row; */
+  justify-content: space-evenly;
+}
+
+.card-body {
+  width: 30%;
+  height: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+}
+.swiper-container {
+  background-image: url(../images/team2.jpg);
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.swiper-slide {
+  height: 400px;
+}
+.swiper-img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+.swiper-div {
+  width: 400px;
+  height: 400px;
+}
+.schemes-head {
+  background-image: url("../images/team4.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}

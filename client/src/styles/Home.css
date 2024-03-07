@@ -1,0 +1,58 @@
+.hero-container {
+  display: flex;
+  padding: 2rem 3rem 2rem 3rem;
+  font-family: "Poppins", sans-serif;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(../../public/assets/child2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-text-box {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  margin-top: 6rem;
+}
+.hero-head-text {
+  font-size: 5rem;
+  width: 100%;
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+.hero-sub-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(242, 235, 25);
+}
+.hero-map {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 50;
+  right: 0;
+}
+.hero-button {
+  display: flex;
+  gap: 20px;
+}
+.hero-btn1,
+.hero-btn2 {
+  width: fit-content;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 5rem;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 20px 0 rgba(37, 37, 39, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

@@ -1,0 +1,23 @@
+.about-container{
+  padding: 6rem;
+}
+.about{
+  display: flex;
+  gap: 4rem;
+  align-items:center;
+}
+.about-text{
+  max-width: 500px;
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-text span{
+  font-size: 6rem;
+}
+.about-frame{
+  height: 400px;
+  width: 60%;
+}
